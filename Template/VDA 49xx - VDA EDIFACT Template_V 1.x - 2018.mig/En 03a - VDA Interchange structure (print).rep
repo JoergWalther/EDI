@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportOptions Type="MessageTypeGuide"
+    Version="31"
+    SubVersion="7"
+    Name="En 02a - VDA Page 3 (print)">
+  <LayoutFile>En 02a - VDA Page 3 (print).lyt</LayoutFile>
+  <FirstPageNumber>1</FirstPageNumber>
+  <Object Id="ID1" ObjectType="Guide">
+    <Tag>VDA 49xx - VDA EDIFACT Template</Tag>
+    <Version>V 1.x - 2017</Version>
+  </Object>
+  <Languages BackMainLang="false" MeTyText="false" GenerateSeGNames="true">
+    <LanguagesLink>
+      <LanguageCode>EN</LanguageCode>
+      <LayoutLanguage>1</LayoutLanguage>
+    </LanguagesLink>
+  </Languages>
+  <Filter ObjectRef="ID1" Exclude="true"/>
+  <GdMetyViewOptions GuideView="true" OnlyUsedSe_G="false"/>
+  <SegmentNumbers ObjectRef="ID1">UseGuideSegmentNumbers</SegmentNumbers>
+  <MappingFilter/>
+  <NoteFilter/>
+</ReportOptions>

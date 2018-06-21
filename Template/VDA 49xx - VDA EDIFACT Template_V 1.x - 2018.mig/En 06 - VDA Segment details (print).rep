@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportOptions Type="Guide"
+    Version="31"
+    SubVersion="7"
+    Name="">
+  <LayoutFile>En 06 - VDA Segment details (print).lyt</LayoutFile>
+  <FirstPageNumber>1</FirstPageNumber>
+  <Object Id="ID1" ObjectType="Guide">
+    <Tag>VDA 4943 T1 - Global DESADV Versandvorschau Leergut</Tag>
+    <Version>V 2.0 - 2018</Version>
+  </Object>
+  <Languages BackMainLang="true" MeTyText="false" GenerateSeGNames="false">
+    <LanguagesLink>
+      <LanguageCode>EN</LanguageCode>
+      <LayoutLanguage>1</LayoutLanguage>
+    </LanguagesLink>
+  </Languages>
+  <Filter ObjectRef="ID1" Exclude="true"/>
+  <SegmentStructure>PerDatabase</SegmentStructure>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".Code" CmdField="%Code" LayoutField="Code" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".Code" CmdField="%Name" LayoutField="Codename" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="Note" PointCmd=".Remarkf" LayoutField="fComment" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Copyright" LayoutField="FX-Copyright" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Guide" LayoutField="FX-Guide" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Titel" LayoutField="FX-Titel" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Version" LayoutField="FX-Version" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="Note" PointCmd=".Name" LayoutField="Name" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="Note" PointCmd=".Remark" LayoutField="Remark" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="Note" PointCmd=".Desc" LayoutField="Remark" OutputPointCmd="false" Param="None"/>
+  <SegmentNumbers ObjectRef="ID1">UseGuideSegmentNumbers</SegmentNumbers>
+  <DataElementFilter ObjectRef="ID1" Exclude="true"/>
+  <MappingFilter/>
+  <NoteFilter/>
+</ReportOptions>

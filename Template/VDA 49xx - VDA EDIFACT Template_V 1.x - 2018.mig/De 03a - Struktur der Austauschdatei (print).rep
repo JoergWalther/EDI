@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportOptions Type="MessageTypeGuide"
+    Version="31"
+    SubVersion="7"
+    Name="">
+  <LayoutFile>De 03a - Struktur der Austauschdatei (print).lyt</LayoutFile>
+  <FirstPageNumber>1</FirstPageNumber>
+  <Object Id="ID1" ObjectType="Guide">
+    <Tag>VDA 4943 T1 - Global DESADV Versandvorschau Leergut</Tag>
+    <Version>V 2.0 - 2018</Version>
+  </Object>
+  <Languages BackMainLang="false" MeTyText="false" GenerateSeGNames="true"/>
+  <Filter ObjectRef="ID1" Exclude="true"/>
+  <GdMetyViewOptions GuideView="true" OnlyUsedSe_G="false"/>
+  <SegmentNumbers ObjectRef="ID1">UseGuideSegmentNumbers</SegmentNumbers>
+  <MappingFilter/>
+  <NoteFilter/>
+</ReportOptions>

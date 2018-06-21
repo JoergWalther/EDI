@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout Type="MessageTypeGuide"
+    Version="40"
+    SubVersion="1"
+    Name=""
+    UseStylesheets="false">
+  <Language Id="ID1" Number="1"/>
+  <Comment Id="ID2" Text="FX-Titel"/>
+  <Comment Id="ID3" Text="FX-Version"/>
+  <Comment Id="ID4" Text="FX-Guide"/>
+  <Comment Id="ID5" Text="FX-Copyright"/>
+  <Font Id="ID6" Height="20" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFDontCare"/>
+  <Font Id="ID7" Height="16" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFDontCare"/>
+  <Font Id="ID8" Height="16" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFSwiss"/>
+  <Font Id="ID9" Height="28" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFDontCare"/>
+  <DefaultFont FontRef="ID6"/>
+  <Page Type="Default" GridX="113" GridY="113" Orientation="Portrait" PaperSize="9" SizeX="11906" SizeY="16838" MarginsLeft="1135" MarginsTop="566" MarginsRight="1135" MarginsBottom="566" BackgroundImage="" Flags="None" CompletePageAfterSection="true" StretchLastSection="false" SectionsPerPage="1000">
+    <BackgroundColor Color="NonColor"/>
+    <HyperlinkColor Color="NonColor"/>
+    <VisitedHyperlinkColor Color="NonColor"/>
+    <ActiveHyperlinkColor Color="NonColor"/>
+    <Area Type="Header">
+      <Section Type="Header" Qualifier="None" Height="211" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="3847" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="UserDescription" ObjectNumber="1" Qualifier="Guide" PositionX="0" Width="1586" Flags="None" FontRef="ID7" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="UpperCase" LangRef="ID1" CommentRef="ID4" LinkTarget="" UserColor="#A0A0A0"/>
+            <Field Type="UserDescription" ObjectNumber="1" Qualifier="Guide" PositionX="1570" Width="2268" Flags="None" FontRef="ID7" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="UpperCase" LangRef="ID1" CommentRef="ID3" LinkTarget="" UserColor="#A0A0A0"/>
+          </Row>
+        </Cell>
+        <Cell Type="Default" Width="5335" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="UserDescription" ObjectNumber="1" Qualifier="Guide" PositionX="0" Width="5335" Flags="None" FontRef="ID7" Align="Right" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="UpperCase" LangRef="ID1" CommentRef="ID2" LinkTarget="" UserColor="#A0A0A0"/>
+          </Row>
+        </Cell>
+        <Cell Type="Default" Width="454" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="PageNumber" ObjectNumber="1" Qualifier="None" PositionX="0" Width="454" Flags="None" FontRef="ID7" Align="Right" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0"/>
+          </Row>
+        </Cell>
+      </Section>
+    </Area>
+    <Area Type="Data">
+      <Section Type="MainData" Qualifier="MessageType" Height="293" HasPageFrame="false" BreakIfNotCompleted="true" RepeatOnEveryPage="false" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="9636" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="40" BottomSpace="40">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="0" Width="9070" Flags="None" FontRef="ID8" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black">
+              <StaticText>"    "</StaticText>
+            </Field>
+          </Row>
+        </Cell>
+      </Section>
+      <Section Type="MainData" Qualifier="MessageType" Height="454" HasPageFrame="false" BreakIfNotCompleted="true" RepeatOnEveryPage="false" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="9636" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="40" BottomSpace="40">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="0" Width="9070" Flags="None" FontRef="ID9" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0">
+              <StaticText>"Structure of an UN/EDIFACT interchange"</StaticText>
+            </Field>
+          </Row>
+        </Cell>
+      </Section>
+      <Section Type="MainData" Qualifier="MessageType" Height="293" HasPageFrame="false" BreakIfNotCompleted="true" RepeatOnEveryPage="false" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="9636" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="40" BottomSpace="40">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="0" Width="9070" Flags="None" FontRef="ID8" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black">
+              <StaticText>"    "</StaticText>
+            </Field>
+          </Row>
+        </Cell>
+      </Section>
+      <Section Type="MainData" Qualifier="MessageType" Height="533" HasPageFrame="false" BreakIfNotCompleted="true" RepeatOnEveryPage="false" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="9636" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="22" Width="9019" Flags="None" FontRef="ID6" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black">
+              <StaticText>
+"An EDIFACT interchange file contains an interchange frame (UNB-UNZ) with one or more messages (UNH-UNT). The interchange frame can be preceded by a service string advice to define the used separator characters (recommended).
+
+"
+              </StaticText>
+            </Field>
+          </Row>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="5" Width="6470" Flags="None" FontRef="ID6" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black">
+              <StaticText>"Usually one interchange file contains only messages of the same type, e.g.  "</StaticText>
+            </Field>
+            <Field Type="Tag" ObjectNumber="1" Qualifier="MessageType" PositionX="6470" Width="1056" Flags="None" FontRef="ID6" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+          </Row>
+        </Cell>
+      </Section>
+      <Section Type="MainData" Qualifier="MessageType" Height="266" HasPageFrame="false" BreakIfNotCompleted="true" RepeatOnEveryPage="false" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="9636" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="0" Width="9636" Flags="None" FontRef="ID6" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black">
+              <StaticText>
+"
+For more information, please refer to recommendation VDA 4900."
+              </StaticText>
+            </Field>
+          </Row>
+        </Cell>
+      </Section>
+      <Section Type="MainData" Qualifier="MessageType" Height="5534" HasPageFrame="false" BreakIfNotCompleted="true" RepeatOnEveryPage="false" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="9636" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="Bitmap" ObjectNumber="1" Qualifier="None" PositionX="739" Width="8280" Height="5534" Flags="None" BitmapFile="EDIFACT Interchange EN.PNG" BitmapAlign="Top" BitmapAlternativeText="" BitmapCustomSize="false" LinkTarget="" Color="Black"/>
+          </Row>
+        </Cell>
+      </Section>
+    </Area>
+    <Area Type="Footer">
+      <Section Type="Footer" Qualifier="None" Height="211" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="9636" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="UserDescription" ObjectNumber="1" Qualifier="Guide" PositionX="0" Width="9636" Flags="None" FontRef="ID7" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="UpperCase" LangRef="ID1" CommentRef="ID5" LinkTarget="" UserColor="#A0A0A0"/>
+          </Row>
+        </Cell>
+      </Section>
+    </Area>
+  </Page>
+</Layout>

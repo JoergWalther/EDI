@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportOptions Type="MessageTypeGuide"
+    Version="31"
+    SubVersion="7"
+    Name="">
+  <LayoutFile>En 05 - VDA Message structure (print).lyt</LayoutFile>
+  <FirstPageNumber>1</FirstPageNumber>
+  <Object Id="ID1" ObjectType="Guide">
+    <Tag>VDA 4943 T1 - Global DESADV Versandvorschau Leergut</Tag>
+    <Version>V 2.0 - 2018</Version>
+  </Object>
+  <Languages BackMainLang="true" MeTyText="false" GenerateSeGNames="false">
+    <LanguagesLink>
+      <LanguageCode>EN</LanguageCode>
+      <LayoutLanguage>1</LayoutLanguage>
+    </LanguagesLink>
+  </Languages>
+  <Filter ObjectRef="ID1" Exclude="true"/>
+  <GdMetyViewOptions GuideView="true" OnlyUsedSe_G="false"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Copyright" LayoutField="FX-Copyright" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Guide" LayoutField="FX-Guide" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Titel" LayoutField="FX-Titel" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Version" LayoutField="FX-Version" OutputPointCmd="false" Param="None"/>
+  <SegmentNumbers ObjectRef="ID1">UseGuideSegmentNumbers</SegmentNumbers>
+  <MappingFilter/>
+  <NoteFilter/>
+</ReportOptions>

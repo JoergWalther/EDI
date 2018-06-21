@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportOptions Type="UsedCodesPerDe"
+    Version="31"
+    SubVersion="7"
+    Name="">
+  <LayoutFile>En 07 - VDA Applicable Codes (print).lyt</LayoutFile>
+  <FirstPageNumber>1</FirstPageNumber>
+  <Object Id="ID1" ObjectType="Guide">
+    <Tag>VDA 4943 T1 - Global DESADV Versandvorschau Leergut</Tag>
+    <Version>V 2.0 - 2018</Version>
+  </Object>
+  <Languages BackMainLang="true" MeTyText="false" GenerateSeGNames="false"/>
+  <Filter ObjectRef="ID1" Exclude="true"/>
+  <SegmentNumbers ObjectRef="ID1">UseGuideSegmentNumbers</SegmentNumbers>
+  <DataElementFilter ObjectRef="ID1" Exclude="true"/>
+  <MappingFilter/>
+  <NoteFilter/>
+</ReportOptions>

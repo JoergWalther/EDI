@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportOptions Type="Mapping"
+    Version="31"
+    SubVersion="7"
+    Name="">
+  <LayoutFile>En 03 - VDA List of changes (print).lyt</LayoutFile>
+  <FirstPageNumber>1</FirstPageNumber>
+  <Object Id="ID1" ObjectType="Guide">
+    <Tag>VDA 4943 T1 - Global DESADV Versandvorschau Leergut</Tag>
+    <Version>V 2.0 - 2018</Version>
+  </Object>
+  <Languages BackMainLang="false" MeTyText="false" GenerateSeGNames="false">
+    <LanguagesLink>
+      <LanguageCode>DE</LanguageCode>
+      <LayoutLanguage>1</LayoutLanguage>
+    </LanguagesLink>
+  </Languages>
+  <Filter ObjectRef="ID1" Exclude="true"/>
+  <StructureCommands NoticeOrder="false">
+    <StructureCommand CreateNewRow="true">.VDAChange</StructureCommand>
+  </StructureCommands>
+  <SortOrder Type="Descending">
+    <SortField Name="FieldInRecType" PointCmd=".VDAChange" CmdField="Version"/>
+    <SortField Name="FieldInRecType" PointCmd=".VDAChange" CmdField="Datum"/>
+  </SortOrder>
+  <MapFieldLink Flag="FieldInRecType" PointCmd=".VDAChange" CmdField="CR" LayoutField="Change Request"/>
+  <MapFieldLink Flag="FieldInRecType" PointCmd=".VDAChange" CmdField="Datum" LayoutField="Date"/>
+  <MapFieldLink Flag="FieldInRecType" PointCmd=".VDAChange" CmdField="Inhalt" LayoutField="Type of change"/>
+  <MapFieldLink Flag="FieldInRecType" PointCmd=".VDAChange" CmdField="Version" LayoutField="Version"/>
+  <SegmentNumbers ObjectRef="ID1">UseGuideSegmentNumbers</SegmentNumbers>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Copyright" LayoutField="FX-Copyright" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Guide" LayoutField="FX-Guide" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Titel" LayoutField="FX-Titel" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Version" LayoutField="FX-Version" OutputPointCmd="false" Param="None"/>
+  <MappingFilter/>
+  <NoteFilter/>
+</ReportOptions>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout Type="MessageTypeGuide"
+    Version="40"
+    SubVersion="136"
+    Name=""
+    UseStylesheets="false">
+  <Language Id="ID1" Number="1"/>
+  <Comment Id="ID2" Text="FX-Version"/>
+  <Comment Id="ID3" Text="FX-Guide"/>
+  <Comment Id="ID4" Text="FX-Titel"/>
+  <Comment Id="ID5" Text="FX-Copyright"/>
+  <Font Id="ID6" Height="16" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFDontCare"/>
+  <Font Id="ID7" Height="24" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFDontCare"/>
+  <Font Id="ID8" Height="16" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFSwiss"/>
+  <Font Id="ID9" Height="22" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFDontCare"/>
+  <Font Id="ID10" Height="16" FaceName="Imago Pro Book" Weight="Bold" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFSwiss"/>
+  <Font Id="ID11" Height="12" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFSwiss"/>
+  <DefaultFont FontRef="ID6"/>
+  <Page Type="Default" GridX="113" GridY="113" Orientation="Portrait" PaperSize="9" SizeX="11906" SizeY="16838" MarginsLeft="1135" MarginsTop="566" MarginsRight="1135" MarginsBottom="566" BackgroundImage="" Flags="None" CompletePageAfterSection="true" StretchLastSection="false" SectionsPerPage="1000">
+    <Frame>
+      <Corner Location="TopLeft" Style="45Inner"/>
+      <Corner Location="TopRight" Style="45Inner"/>
+      <Corner Location="BottomLeft" Style="45Inner"/>
+      <Corner Location="BottomRight" Style="45Inner"/>
+      <Edge Location="Left" Color="Black" Distance="0" Thickness="15" Style="Simple"/>
+      <Edge Location="Right" Color="Black" Distance="0" Thickness="15" Style="Simple"/>
+      <Edge Location="Top" Color="Black" Distance="0" Thickness="15" Style="Simple"/>
+      <Edge Location="Bottom" Color="Black" Distance="0" Thickness="15" Style="Simple"/>
+    </Frame>
+    <BackgroundColor Color="NonColor"/>
+    <HyperlinkColor Color="NonColor"/>
+    <VisitedHyperlinkColor Color="NonColor"/>
+    <ActiveHyperlinkColor Color="NonColor"/>
+    <Area Type="Header">
+      <Section Type="Header" Qualifier="None" Height="211" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="4174" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="UserDescription" ObjectNumber="1" Qualifier="Guide" PositionX="0" Width="1586" Flags="None" FontRef="ID6" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="UpperCase" LangRef="ID1" CommentRef="ID3" LinkTarget="" UserColor="#A0A0A0"/>
+            <Field Type="UserDescription" ObjectNumber="1" Qualifier="Guide" PositionX="1589" Width="2585" Flags="None" FontRef="ID6" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="UpperCase" LangRef="ID1" CommentRef="ID2" LinkTarget="" UserColor="#A0A0A0" ToolTipText="VDA 49xx Anlage 1"/>
+          </Row>
+        </Cell>
+        <Cell Type="Default" Width="5009" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="UserDescription" ObjectNumber="1" Qualifier="Guide" PositionX="0" Width="5009" Flags="None" FontRef="ID6" Align="Right" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="UpperCase" LangRef="ID1" CommentRef="ID4" LinkTarget="" UserColor="#A0A0A0"/>
+          </Row>
+        </Cell>
+        <Cell Type="Default" Width="454" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="PageNumber" ObjectNumber="1" Qualifier="None" PositionX="0" Width="454" Flags="None" FontRef="ID6" Align="Right" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0"/>
+          </Row>
+        </Cell>
+      </Section>
+      <Section Type="Header" Qualifier="None" Height="240" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="9636" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0"/>
+        </Cell>
+      </Section>
+      <Section Type="Header" Qualifier="None" Height="401" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="9636" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="40" BottomSpace="40">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="84" Width="7392" Flags="None" FontRef="ID7" Align="Top" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0">
+              <StaticText>"Struktur / Inhalt"</StaticText>
+            </Field>
+          </Row>
+        </Cell>
+      </Section>
+      <Section Type="Header" Qualifier="None" Height="211" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="9636" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="0" Width="9070" Flags="None" FontRef="ID8" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black">
+              <StaticText>""</StaticText>
+            </Field>
+          </Row>
+        </Cell>
+      </Section>
+    </Area>
+    <Area Type="Data">
+      <Table Type="Table" Qualifier="None" Flags="None">
+        <Section Type="TableHeader" Qualifier="None" Height="427" HasPageFrame="false" Visible="true" OneTableHeaderPerPage="false">
+          <Cell Type="Default" Width="600" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <Frame>
+              <Corner Location="TopLeft" Style="HorzVert"/>
+              <Corner Location="TopRight" Style="HorzVert"/>
+              <Corner Location="BottomLeft" Style="HorzVert"/>
+              <Corner Location="BottomRight" Style="HorzVert"/>
+              <Edge Location="Left" Color="Black" Distance="0" Thickness="0" Style="None"/>
+              <Edge Location="Right" Color="Black" Distance="0" Thickness="0" Style="None"/>
+              <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+              <Edge Location="Bottom" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+            </Frame>
+            <BackgroundColor UserColor="#C2C2C3"/>
+            <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0"/>
+          </Cell>
+          <Cell Type="Default" Width="9036" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <Frame>
+              <Corner Location="TopLeft" Style="HorzVert"/>
+              <Corner Location="TopRight" Style="HorzVert"/>
+              <Corner Location="BottomLeft" Style="HorzVert"/>
+              <Corner Location="BottomRight" Style="HorzVert"/>
+              <Edge Location="Left" Color="Black" Distance="0" Thickness="0" Style="None"/>
+              <Edge Location="Right" Color="Black" Distance="0" Thickness="0" Style="None"/>
+              <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+              <Edge Location="Bottom" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+            </Frame>
+            <BackgroundColor UserColor="#C2C2C3"/>
+            <Row Type="Default" LineSpace="10" TopSpace="60" BottomSpace="60">
+              <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="58" Width="396" Flags="None" FontRef="ID9" Align="Right" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#555555">
+                <StaticText>"Nr"</StaticText>
+              </Field>
+              <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="566" Width="679" Flags="None" FontRef="ID9" Align="Top" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#555555">
+                <StaticText>"Bez"</StaticText>
+              </Field>
+              <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="1303" Width="283" Flags="None" FontRef="ID9" Align="Top" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#555555">
+                <StaticText>"St"</StaticText>
+              </Field>
+              <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="1644" Width="965" Flags="None" FontRef="ID9" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#555555">
+                <StaticText>"MaxWdh"</StaticText>
+              </Field>
+              <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="2664" Width="6300" Flags="None" FontRef="ID9" Align="Top" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#555555">
+                <StaticText>"Inhalt"</StaticText>
+              </Field>
+            </Row>
+          </Cell>
+        </Section>
+        <Section Type="TableRow" Qualifier="SegmentGroup" Height="310" HasPageFrame="false" BreakIfNotCompleted="false" Visible="true">
+          <Cell Type="Default" Width="600" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="White"/>
+            <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+              <Field Type="Graphic" ObjectNumber="1" Qualifier="SegmentGroup" PositionX="0" Width="600" Flags="None" LineThickness="15" LineDistance="58" TopDistance="158" LinkTarget="" UserColor="#555555"/>
+            </Row>
+          </Cell>
+          <Cell Type="Default" Width="9036" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="White"/>
+            <Row Type="Default" LineSpace="10" TopSpace="80" BottomSpace="20">
+              <Field Type="Tag" ObjectNumber="1" Qualifier="SegmentGroup" PositionX="566" Width="679" Flags="None" FontRef="ID10" Align="Top" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              <Field Type="Status" ObjectNumber="1" Qualifier="SegmentGroup" PositionX="1303" Width="283" Flags="None" FontRef="ID8" Align="Top" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              <Field Type="Repetition_Max" ObjectNumber="1" Qualifier="SegmentGroup" PositionX="1644" Width="965" Flags="None" FontRef="ID8" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              <Field Type="NameLang" ObjectNumber="1" Qualifier="SegmentGroup" PositionX="2664" Width="6300" Flags="None" FontRef="ID8" Align="Top" Style="DynamicRowCount" MinRowCount="0" Convert="None" LangRef="ID1" LinkTarget="" Color="Black"/>
+            </Row>
+          </Cell>
+        </Section>
+        <Section Type="TableRow" Qualifier="Segment" Height="290" HasPageFrame="false" BreakIfNotCompleted="false" Visible="true">
+          <Cell Type="Default" Width="600" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="White"/>
+            <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+              <Field Type="Graphic" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="600" Flags="None" LineThickness="15" LineDistance="58" TopDistance="170" LinkTarget="" UserColor="#555555"/>
+            </Row>
+          </Cell>
+          <Cell Type="Default" Width="9036" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="White"/>
+            <Row Type="Default" LineSpace="10" TopSpace="60" BottomSpace="20">
+              <Field Type="Number" ObjectNumber="1" Qualifier="Segment" PositionX="58" Width="396" Flags="None" FontRef="ID8" Align="Right" Style="DynamicRowCount" MinRowCount="0" Convert="None" CounterStep="1" CounterWidth="2" CounterLeadingZero="0" CounterStartValue="1" LinkTarget="" Color="Black"/>
+              <Field Type="Tag" ObjectNumber="1" Qualifier="Segment" PositionX="566" Width="679" Flags="None" FontRef="ID10" Align="Top" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              <Field Type="Status" ObjectNumber="1" Qualifier="Segment" PositionX="1303" Width="283" Flags="None" FontRef="ID8" Align="Top" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              <Field Type="Repetition_Max" ObjectNumber="1" Qualifier="Segment" PositionX="1644" Width="965" Flags="None" FontRef="ID8" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              <Field Type="NameLang" ObjectNumber="1" Qualifier="Segment" PositionX="2664" Width="6300" Flags="None" FontRef="ID8" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LangRef="ID1" LinkTarget="" Color="Black"/>
+            </Row>
+          </Cell>
+        </Section>
+      </Table>
+    </Area>
+    <Area Type="Footer">
+      <Section Type="Footer" Qualifier="None" Height="372" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="9636" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="160" BottomSpace="0">
+            <Field Type="UserDescription" ObjectNumber="1" Qualifier="Guide" PositionX="0" Width="4625" Flags="None" FontRef="ID6" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="UpperCase" LangRef="ID1" CommentRef="ID5" LinkTarget="" UserColor="#A0A0A0"/>
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="4606" Width="5018" Flags="None" FontRef="ID11" Align="Right" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0">
+              <StaticText>"Generated by GEFEG.FX"</StaticText>
+            </Field>
+          </Row>
+        </Cell>
+      </Section>
+      <Section Type="Footer" Qualifier="None" Height="271" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="9636" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="60">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="58" Width="9526" Flags="None" FontRef="ID6" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0">
+              <StaticText>"Bez =Bezeichner; Nr = Laufende Segmentnummer im Guide; MaxWdh = Maximale Wiederholung; St = Status (M=Muss/Mandatory, C=Conditional, R=Erforderlich/Required, O=Optional, D=Abhängig von/Dependent, A=Empfohlen/Advised)"</StaticText>
+            </Field>
+          </Row>
+        </Cell>
+      </Section>
+      <Section Type="Footer" Qualifier="None" Height="240" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="9636" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0"/>
+        </Cell>
+      </Section>
+    </Area>
+  </Page>
+</Layout>

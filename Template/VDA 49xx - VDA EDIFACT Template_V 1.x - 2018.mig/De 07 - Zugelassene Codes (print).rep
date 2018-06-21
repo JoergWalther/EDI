@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportOptions Type="UsedCodesPerDe"
+    Version="31"
+    SubVersion="12"
+    Name="">
+  <LayoutFile>De 07 - Zugelassene Codes (print).lyt</LayoutFile>
+  <FirstPageNumber>1</FirstPageNumber>
+  <Object Id="ID1" ObjectType="Guide">
+    <Tag>VDA 4945 - IFTSTA Transportstatusmeldung</Tag>
+    <Version>V 1.x - 2017</Version>
+  </Object>
+  <Languages BackMainLang="true" MeTyText="false" GenerateSeGNames="false">
+    <LanguagesLink>
+      <LanguageCode>DE</LanguageCode>
+      <LayoutLanguage>1</LayoutLanguage>
+    </LanguagesLink>
+  </Languages>
+  <Filter ObjectRef="ID1" Exclude="true"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Copyright" LayoutField="FX-Copyright" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Guide" LayoutField="FX-Guide" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Titel" LayoutField="FX-Titel" OutputPointCmd="false" Param="None"/>
+  <CommentLink ObjectRef="ID1" Flag="NoteField" PointCmd=".VDAKopfzeilen-Info" CmdField="FX-Version" LayoutField="FX-Version" OutputPointCmd="false" Param="None"/>
+  <SegmentNumbers ObjectRef="ID1">UseGuideSegmentNumbers</SegmentNumbers>
+  <DataElementFilter ObjectRef="ID1" Exclude="true"/>
+  <MappingFilter/>
+  <NoteFilter/>
+</ReportOptions>

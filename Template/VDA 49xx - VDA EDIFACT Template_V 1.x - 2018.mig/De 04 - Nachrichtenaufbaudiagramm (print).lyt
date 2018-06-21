@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout Type="BranchingDiagramGuide"
+    Version="40"
+    SubVersion="1"
+    Name=""
+    UseStylesheets="false">
+  <Language Id="ID1" Number="1"/>
+  <Comment Id="ID2" Text="FX-Titel"/>
+  <Comment Id="ID3" Text="FX-Version"/>
+  <Comment Id="ID4" Text="FX-Guide"/>
+  <Comment Id="ID5" Text="FX-Copyright"/>
+  <Font Id="ID6" Height="18" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFDontCare"/>
+  <Font Id="ID7" Height="16" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFDontCare"/>
+  <Font Id="ID8" Height="28" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFDontCare"/>
+  <Font Id="ID9" Height="16" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFSwiss"/>
+  <Font Id="ID10" Height="20" FaceName="Imago Pro Book" Weight="Bold" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFSwiss"/>
+  <Font Id="ID11" Height="20" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFDontCare"/>
+  <Font Id="ID12" Height="12" FaceName="Imago Pro Book" Weight="Normal" Italic="false" Underline="false" StrikeOut="false" Charset="ANSI" Pitch="Variable" Family="FFSwiss"/>
+  <DefaultFont FontRef="ID6"/>
+  <Page Type="Default" GridX="113" GridY="113" Orientation="Landscape" PaperSize="9" SizeX="11906" SizeY="16838" MarginsLeft="1135" MarginsTop="566" MarginsRight="1135" MarginsBottom="566" BackgroundImage="" Flags="None" CompletePageAfterSection="true" StretchLastSection="false" SectionsPerPage="500">
+    <Frame>
+      <Corner Location="TopLeft" Style="45Inner"/>
+      <Corner Location="TopRight" Style="45Inner"/>
+      <Corner Location="BottomLeft" Style="45Inner"/>
+      <Corner Location="BottomRight" Style="45Inner"/>
+      <Edge Location="Left" Color="Black" Distance="0" Thickness="15" Style="Double"/>
+      <Edge Location="Right" Color="Black" Distance="0" Thickness="15" Style="Double"/>
+      <Edge Location="Top" Color="Black" Distance="0" Thickness="15" Style="Double"/>
+      <Edge Location="Bottom" Color="Black" Distance="0" Thickness="15" Style="Double"/>
+    </Frame>
+    <BackgroundColor Color="NonColor"/>
+    <HyperlinkColor Color="NonColor"/>
+    <VisitedHyperlinkColor Color="NonColor"/>
+    <ActiveHyperlinkColor Color="NonColor"/>
+    <Area Type="Header">
+      <Section Type="Header" Qualifier="None" Height="211" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="1586" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="UserDescription" ObjectNumber="1" Qualifier="Guide" PositionX="0" Width="1586" Flags="None" FontRef="ID7" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="UpperCase" LangRef="ID1" CommentRef="ID4" LinkTarget="" UserColor="#A0A0A0"/>
+          </Row>
+        </Cell>
+        <Cell Type="Default" Width="12307" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="UserDescription" ObjectNumber="1" Qualifier="Guide" PositionX="0" Width="5971" Flags="None" FontRef="ID7" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="UpperCase" LangRef="ID1" CommentRef="ID3" LinkTarget="" UserColor="#A0A0A0"/>
+            <Field Type="UserDescription" ObjectNumber="1" Qualifier="Guide" PositionX="5974" Width="6334" Flags="None" FontRef="ID7" Align="Right" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="UpperCase" LangRef="ID1" CommentRef="ID2" LinkTarget="" UserColor="#A0A0A0"/>
+          </Row>
+        </Cell>
+        <Cell Type="Default" Width="674" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="PageNumber" ObjectNumber="1" Qualifier="None" PositionX="0" Width="454" Flags="None" FontRef="ID7" Align="Right" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0"/>
+          </Row>
+        </Cell>
+      </Section>
+      <Section Type="Header" Qualifier="None" Height="228" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="14568" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+        </Cell>
+      </Section>
+      <Section Type="Header" Qualifier="None" Height="454" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="14568" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="40" BottomSpace="40">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="0" Width="14568" Flags="None" FontRef="ID8" Align="Top" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0">
+              <StaticText>"Nachrichtenaufbaudiagramm benutzter Segmente/Gruppen"</StaticText>
+            </Field>
+          </Row>
+        </Cell>
+      </Section>
+    </Area>
+    <Area Type="Data">
+      <Table Type="BDGTable" Qualifier="None" Flags="None">
+        <Section Type="TableRow" Qualifier="Line_and_Distance" Height="142" HasPageFrame="false" BreakIfNotCompleted="false" Visible="true">
+          <Cell Type="BDG_Line_and_Distance" Width="14568" RowAsTable="false" TableContent="Comments Codes Mappings" LineThickness="15" LineStyle="Solid">
+            <BackgroundColor Color="White"/>
+            <LineColor Color="Gray"/>
+          </Cell>
+        </Section>
+        <Section Type="TableRow" Qualifier="Connector" Height="451" HasPageFrame="false" BreakIfNotCompleted="false" Visible="true">
+          <Cell Type="BDG_Level" Width="115" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="White"/>
+          </Cell>
+          <Cell Type="BDG_Connector_from" Width="454" RowAsTable="false" TableContent="Comments Codes Mappings" LineThickness="15" LineStyle="Solid" ConnectorOrientation="VerticalLine" ConnectorStyle="Circle">
+            <BackgroundColor Color="White"/>
+            <LineColor Color="Gray"/>
+            <Row Type="BDG" LineSpace="10" TopSpace="120" BottomSpace="120">
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="None" PositionX="0" Width="454" Flags="None" LinkTarget="" Color="Black">
+                <Field Type="ConnectorNumber" ObjectNumber="1" Qualifier="Connector" PositionX="0" Width="454" Flags="None" FontRef="ID9" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              </Field>
+            </Row>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Tree" Width="936" RowAsTable="false" TableContent="Comments Codes Mappings" LineThickness="15" LineStyle="Solid">
+            <BackgroundColor Color="White"/>
+            <LineColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Tree" Width="936" RowAsTable="false" TableContent="Comments Codes Mappings" LineThickness="15" LineStyle="Solid">
+            <BackgroundColor Color="White"/>
+            <LineColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Tree" Width="936" RowAsTable="false" TableContent="Comments Codes Mappings" LineThickness="15" LineStyle="Solid">
+            <BackgroundColor Color="White"/>
+            <LineColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Tree" Width="936" RowAsTable="false" TableContent="Comments Codes Mappings" LineThickness="15" LineStyle="Solid">
+            <BackgroundColor Color="White"/>
+            <LineColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Connector_to" Width="454" RowAsTable="false" TableContent="Comments Codes Mappings" LineThickness="15" LineStyle="Solid" ConnectorOrientation="VerticalLine" ConnectorStyle="Circle">
+            <BackgroundColor Color="White"/>
+            <LineColor Color="Gray"/>
+            <Row Type="BDG" LineSpace="10" TopSpace="120" BottomSpace="120">
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="None" PositionX="0" Width="454" Flags="None" LinkTarget="" Color="Black">
+                <Field Type="ConnectorNumber" ObjectNumber="1" Qualifier="Connector" PositionX="0" Width="454" Flags="None" FontRef="ID9" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              </Field>
+            </Row>
+          </Cell>
+          <Cell Type="BDG_PlaceHolder" Width="8386" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="LtGray"/>
+          </Cell>
+        </Section>
+        <Section Type="TableRow" Qualifier="SegmentGroup" Height="583" HasPageFrame="false" BreakIfNotCompleted="false" Visible="true">
+          <Cell Type="BDG_Level" Width="115" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="White"/>
+            <Row Type="BDG" LineSpace="10" TopSpace="0" BottomSpace="0"/>
+          </Cell>
+          <Cell Type="BDG_Connector_from" Width="454" RowAsTable="false" TableContent="Comments Codes Mappings" LineThickness="15" LineStyle="Solid" ConnectorOrientation="VerticalLine" ConnectorStyle="Rectangle">
+            <BackgroundColor Color="White"/>
+            <LineColor Color="Black"/>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Tree" Width="936" RowAsTable="false" TableContent="Comments Codes Mappings" LineThickness="15" LineStyle="Solid">
+            <BackgroundColor Color="White"/>
+            <LineColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Tree" Width="936" RowAsTable="false" TableContent="Comments Codes Mappings" LineThickness="15" LineStyle="Solid">
+            <BackgroundColor Color="White"/>
+            <LineColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_UsedSeGNode" Width="936" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <Frame>
+              <Corner Location="TopLeft" Style="45Inner"/>
+              <Corner Location="TopRight" Style="45Inner"/>
+              <Corner Location="BottomLeft" Style="45Inner"/>
+              <Corner Location="BottomRight" Style="45Inner"/>
+              <Edge Location="Left" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Right" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Top" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Bottom" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+            </Frame>
+            <BackgroundColor Color="White"/>
+            <Row Type="BDG" LineSpace="10" TopSpace="20" BottomSpace="20">
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="None" PositionX="0" Width="907" Flags="None" LinkTarget="" Color="Black">
+                <Frame>
+                  <Corner Location="TopLeft" Style="HorzVert"/>
+                  <Corner Location="TopRight" Style="HorzVert"/>
+                  <Corner Location="BottomLeft" Style="HorzVert"/>
+                  <Corner Location="BottomRight" Style="HorzVert"/>
+                  <Edge Location="Left" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Right" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Bottom" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+                </Frame>
+                <Field Type="Tag" ObjectNumber="1" Qualifier="SegmentGroup" PositionX="0" Width="907" Flags="None" FontRef="ID10" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              </Field>
+            </Row>
+            <Row Type="BDG" LineSpace="10" TopSpace="20" BottomSpace="20">
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="SegmentGroup" PositionX="0" Width="283" Flags="None" LinkTarget="" Color="Black">
+                <Field Type="Status" ObjectNumber="1" Qualifier="SegmentGroup" PositionX="0" Width="283" Flags="None" FontRef="ID9" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              </Field>
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="SegmentGroup" PositionX="283" Width="624" Flags="None" LinkTarget="" Color="Black">
+                <Frame>
+                  <Corner Location="TopLeft" Style="HorzVert"/>
+                  <Corner Location="TopRight" Style="HorzVert"/>
+                  <Corner Location="BottomLeft" Style="HorzVert"/>
+                  <Corner Location="BottomRight" Style="HorzVert"/>
+                  <Edge Location="Left" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+                  <Edge Location="Right" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Bottom" Color="LtGray" Distance="0" Thickness="0" Style="None"/>
+                </Frame>
+                <Field Type="Repetition_Max" ObjectNumber="1" Qualifier="SegmentGroup" PositionX="0" Width="624" Flags="None" FontRef="ID9" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              </Field>
+            </Row>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_DefaulftSeGNode" Width="936" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <Frame>
+              <Corner Location="TopLeft" Style="45Inner"/>
+              <Corner Location="TopRight" Style="45Inner"/>
+              <Corner Location="BottomLeft" Style="45Inner"/>
+              <Corner Location="BottomRight" Style="45Inner"/>
+              <Edge Location="Left" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Right" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Top" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Bottom" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+            </Frame>
+            <BackgroundColor Color="White"/>
+            <Row Type="BDG" LineSpace="10" TopSpace="20" BottomSpace="20">
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="None" PositionX="0" Width="907" Flags="None" LinkTarget="" Color="Black">
+                <Frame>
+                  <Corner Location="TopLeft" Style="HorzVert"/>
+                  <Corner Location="TopRight" Style="HorzVert"/>
+                  <Corner Location="BottomLeft" Style="HorzVert"/>
+                  <Corner Location="BottomRight" Style="HorzVert"/>
+                  <Edge Location="Left" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Right" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Bottom" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+                </Frame>
+                <Field Type="Tag" ObjectNumber="1" Qualifier="SegmentGroup" PositionX="0" Width="907" Flags="None" FontRef="ID11" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#C2C2C3"/>
+              </Field>
+            </Row>
+            <Row Type="BDG" LineSpace="10" TopSpace="20" BottomSpace="20">
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="None" PositionX="0" Width="283" Flags="None" LinkTarget="" Color="Black">
+                <Field Type="Status" ObjectNumber="1" Qualifier="SegmentGroup" PositionX="0" Width="283" Flags="None" FontRef="ID7" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#C2C2C3"/>
+              </Field>
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="None" PositionX="283" Width="624" Flags="None" LinkTarget="" Color="Black">
+                <Frame>
+                  <Corner Location="TopLeft" Style="HorzVert"/>
+                  <Corner Location="TopRight" Style="HorzVert"/>
+                  <Corner Location="BottomLeft" Style="HorzVert"/>
+                  <Corner Location="BottomRight" Style="HorzVert"/>
+                  <Edge Location="Left" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+                  <Edge Location="Right" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Bottom" Color="Gray" Distance="0" Thickness="0" Style="None"/>
+                </Frame>
+                <Field Type="Repetition_Max" ObjectNumber="1" Qualifier="SegmentGroup" PositionX="0" Width="624" Flags="None" FontRef="ID7" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#C2C2C3"/>
+              </Field>
+            </Row>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Connector_to" Width="454" RowAsTable="false" TableContent="Comments Codes Mappings" LineThickness="15" LineStyle="Solid" ConnectorOrientation="VerticalLine" ConnectorStyle="Rectangle">
+            <BackgroundColor Color="White"/>
+            <LineColor Color="Black"/>
+          </Cell>
+          <Cell Type="BDG_PlaceHolder" Width="8386" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="LtGray"/>
+          </Cell>
+        </Section>
+        <Section Type="TableRow" Qualifier="Segment" Height="583" HasPageFrame="false" BreakIfNotCompleted="false" Visible="true">
+          <Cell Type="BDG_Level" Width="115" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="White"/>
+            <Row Type="BDG" LineSpace="10" TopSpace="0" BottomSpace="0"/>
+          </Cell>
+          <Cell Type="BDG_Connector_from" Width="454" RowAsTable="false" TableContent="Comments Codes Mappings" LineThickness="15" LineStyle="Solid" ConnectorOrientation="VerticalLine" ConnectorStyle="Rectangle">
+            <BackgroundColor Color="White"/>
+            <LineColor Color="Black"/>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_UsedSeNode" Width="936" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <Frame>
+              <Corner Location="TopLeft" Style="45Inner"/>
+              <Corner Location="TopRight" Style="45Inner"/>
+              <Corner Location="BottomLeft" Style="45Inner"/>
+              <Corner Location="BottomRight" Style="45Inner"/>
+              <Edge Location="Left" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Right" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Top" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Bottom" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+            </Frame>
+            <BackgroundColor Color="White"/>
+            <Row Type="BDG" LineSpace="10" TopSpace="20" BottomSpace="20">
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="None" PositionX="0" Width="907" Flags="None" LinkTarget="" Color="Black">
+                <Frame>
+                  <Corner Location="TopLeft" Style="HorzVert"/>
+                  <Corner Location="TopRight" Style="HorzVert"/>
+                  <Corner Location="BottomLeft" Style="HorzVert"/>
+                  <Corner Location="BottomRight" Style="HorzVert"/>
+                  <Edge Location="Left" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Right" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Bottom" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+                </Frame>
+                <Field Type="Tag" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="907" Flags="None" FontRef="ID10" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              </Field>
+            </Row>
+            <Row Type="BDG" LineSpace="10" TopSpace="20" BottomSpace="20">
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="283" Flags="None" LinkTarget="" Color="Black">
+                <Field Type="Status" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="283" Flags="None" FontRef="ID9" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              </Field>
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="Segment" PositionX="283" Width="624" Flags="None" LinkTarget="" Color="Black">
+                <Frame>
+                  <Corner Location="TopLeft" Style="HorzVert"/>
+                  <Corner Location="TopRight" Style="HorzVert"/>
+                  <Corner Location="BottomLeft" Style="HorzVert"/>
+                  <Corner Location="BottomRight" Style="HorzVert"/>
+                  <Edge Location="Left" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+                  <Edge Location="Right" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Bottom" Color="LtGray" Distance="0" Thickness="0" Style="None"/>
+                </Frame>
+                <Field Type="Repetition_Max" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="624" Flags="None" FontRef="ID9" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              </Field>
+            </Row>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_DefaulftSeNode" Width="936" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <Frame>
+              <Corner Location="TopLeft" Style="45Inner"/>
+              <Corner Location="TopRight" Style="45Inner"/>
+              <Corner Location="BottomLeft" Style="45Inner"/>
+              <Corner Location="BottomRight" Style="45Inner"/>
+              <Edge Location="Left" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Right" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Top" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Bottom" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+            </Frame>
+            <BackgroundColor Color="White"/>
+            <Row Type="BDG" LineSpace="10" TopSpace="20" BottomSpace="20">
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="None" PositionX="0" Width="907" Flags="None" LinkTarget="" Color="Black">
+                <Frame>
+                  <Corner Location="TopLeft" Style="HorzVert"/>
+                  <Corner Location="TopRight" Style="HorzVert"/>
+                  <Corner Location="BottomLeft" Style="HorzVert"/>
+                  <Corner Location="BottomRight" Style="HorzVert"/>
+                  <Edge Location="Left" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Right" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Bottom" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+                </Frame>
+                <Field Type="Tag" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="907" Flags="None" FontRef="ID11" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#C2C2C3"/>
+              </Field>
+            </Row>
+            <Row Type="BDG" LineSpace="10" TopSpace="20" BottomSpace="20">
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="None" PositionX="0" Width="283" Flags="None" LinkTarget="" Color="Black">
+                <Field Type="Status" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="283" Flags="None" FontRef="ID7" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#C2C2C3"/>
+              </Field>
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="None" PositionX="283" Width="624" Flags="None" LinkTarget="" Color="Black">
+                <Frame>
+                  <Corner Location="TopLeft" Style="HorzVert"/>
+                  <Corner Location="TopRight" Style="HorzVert"/>
+                  <Corner Location="BottomLeft" Style="HorzVert"/>
+                  <Corner Location="BottomRight" Style="HorzVert"/>
+                  <Edge Location="Left" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+                  <Edge Location="Right" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Bottom" Color="Gray" Distance="0" Thickness="0" Style="None"/>
+                </Frame>
+                <Field Type="Repetition_Max" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="624" Flags="None" FontRef="ID7" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#C2C2C3"/>
+              </Field>
+            </Row>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_UsedSeNode_in_SeG" Width="936" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <Frame>
+              <Corner Location="TopLeft" Style="45Inner"/>
+              <Corner Location="TopRight" Style="45Inner"/>
+              <Corner Location="BottomLeft" Style="45Inner"/>
+              <Corner Location="BottomRight" Style="45Inner"/>
+              <Edge Location="Left" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Right" Color="Gray" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Top" Color="Gray" Distance="0" Thickness="0" Style="None"/>
+              <Edge Location="Bottom" Color="Gray" Distance="0" Thickness="15" Style="Simple"/>
+            </Frame>
+            <BackgroundColor Color="White"/>
+            <Row Type="BDG" LineSpace="10" TopSpace="20" BottomSpace="20">
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="None" PositionX="0" Width="907" Flags="None" LinkTarget="" Color="Black">
+                <Frame>
+                  <Corner Location="TopLeft" Style="HorzVert"/>
+                  <Corner Location="TopRight" Style="HorzVert"/>
+                  <Corner Location="BottomLeft" Style="HorzVert"/>
+                  <Corner Location="BottomRight" Style="HorzVert"/>
+                  <Edge Location="Left" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Right" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Bottom" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+                </Frame>
+                <Field Type="Tag" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="907" Flags="None" FontRef="ID10" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              </Field>
+            </Row>
+            <Row Type="BDG" LineSpace="10" TopSpace="20" BottomSpace="20">
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="283" Flags="None" LinkTarget="" Color="Black">
+                <Field Type="Status" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="283" Flags="None" FontRef="ID9" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              </Field>
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="Segment" PositionX="283" Width="624" Flags="None" LinkTarget="" Color="Black">
+                <Frame>
+                  <Corner Location="TopLeft" Style="HorzVert"/>
+                  <Corner Location="TopRight" Style="HorzVert"/>
+                  <Corner Location="BottomLeft" Style="HorzVert"/>
+                  <Corner Location="BottomRight" Style="HorzVert"/>
+                  <Edge Location="Left" UserColor="#555555" Distance="0" Thickness="15" Style="Simple"/>
+                  <Edge Location="Right" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Bottom" Color="LtGray" Distance="0" Thickness="0" Style="None"/>
+                </Frame>
+                <Field Type="Repetition_Max" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="624" Flags="None" FontRef="ID9" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" Color="Black"/>
+              </Field>
+            </Row>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_DefaulftSeNode_in_SeG" Width="936" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <Frame>
+              <Corner Location="TopLeft" Style="45Inner"/>
+              <Corner Location="TopRight" Style="45Inner"/>
+              <Corner Location="BottomLeft" Style="45Inner"/>
+              <Corner Location="BottomRight" Style="45Inner"/>
+              <Edge Location="Left" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Right" Color="Gray" Distance="0" Thickness="15" Style="Simple"/>
+              <Edge Location="Top" Color="Gray" Distance="0" Thickness="0" Style="None"/>
+              <Edge Location="Bottom" Color="Gray" Distance="0" Thickness="15" Style="Simple"/>
+            </Frame>
+            <BackgroundColor Color="White"/>
+            <Row Type="BDG" LineSpace="10" TopSpace="20" BottomSpace="20">
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="None" PositionX="0" Width="907" Flags="None" LinkTarget="" Color="Black">
+                <Frame>
+                  <Corner Location="TopLeft" Style="HorzVert"/>
+                  <Corner Location="TopRight" Style="HorzVert"/>
+                  <Corner Location="BottomLeft" Style="HorzVert"/>
+                  <Corner Location="BottomRight" Style="HorzVert"/>
+                  <Edge Location="Left" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Right" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Bottom" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+                </Frame>
+                <Field Type="Tag" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="907" Flags="None" FontRef="ID11" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#C2C2C3"/>
+              </Field>
+            </Row>
+            <Row Type="BDG" LineSpace="10" TopSpace="20" BottomSpace="20">
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="None" PositionX="0" Width="283" Flags="None" LinkTarget="" Color="Black">
+                <Field Type="Status" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="283" Flags="None" FontRef="ID7" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#C2C2C3"/>
+              </Field>
+              <Field Type="Embedder" ObjectNumber="1" Qualifier="None" PositionX="283" Width="624" Flags="None" LinkTarget="" Color="Black">
+                <Frame>
+                  <Corner Location="TopLeft" Style="HorzVert"/>
+                  <Corner Location="TopRight" Style="HorzVert"/>
+                  <Corner Location="BottomLeft" Style="HorzVert"/>
+                  <Corner Location="BottomRight" Style="HorzVert"/>
+                  <Edge Location="Left" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+                  <Edge Location="Right" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+                  <Edge Location="Bottom" Color="Gray" Distance="0" Thickness="0" Style="None"/>
+                </Frame>
+                <Field Type="Repetition_Max" ObjectNumber="1" Qualifier="Segment" PositionX="0" Width="624" Flags="None" FontRef="ID7" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#C2C2C3"/>
+              </Field>
+            </Row>
+          </Cell>
+          <Cell Type="BDG_Horizontal_Distance" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="Gray"/>
+          </Cell>
+          <Cell Type="BDG_Connector_to" Width="454" RowAsTable="false" TableContent="Comments Codes Mappings" LineThickness="15" LineStyle="Solid" ConnectorOrientation="VerticalLine" ConnectorStyle="Rectangle">
+            <BackgroundColor Color="White"/>
+            <LineColor Color="Black"/>
+          </Cell>
+          <Cell Type="BDG_PlaceHolder" Width="8386" RowAsTable="false" TableContent="Comments Codes Mappings">
+            <BackgroundColor Color="LtGray"/>
+          </Cell>
+        </Section>
+      </Table>
+    </Area>
+    <Area Type="Footer">
+      <Section Type="Footer" Qualifier="None" Height="372" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="14568" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="160" BottomSpace="0">
+            <Field Type="UserDescription" ObjectNumber="1" Qualifier="Guide" PositionX="0" Width="9499" Flags="None" FontRef="ID7" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="UpperCase" LangRef="ID1" CommentRef="ID5" LinkTarget="" UserColor="#A0A0A0"/>
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="9542" Width="5018" Flags="None" FontRef="ID12" Align="Right" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0">
+              <StaticText>"Generated by GEFEG.FX"</StaticText>
+            </Field>
+          </Row>
+        </Cell>
+      </Section>
+      <Section Type="Footer" Qualifier="None" Height="226" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+        </Cell>
+        <Cell Type="Default" Width="1020" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <Frame>
+            <Corner Location="TopLeft" Style="HorzVert"/>
+            <Corner Location="TopRight" Style="HorzVert"/>
+            <Corner Location="BottomLeft" Style="HorzVert"/>
+            <Corner Location="BottomRight" Style="HorzVert"/>
+            <Edge Location="Left" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+            <Edge Location="Right" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+            <Edge Location="Top" Color="Black" Distance="0" Thickness="0" Style="None"/>
+            <Edge Location="Bottom" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+          </Frame>
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="0" Width="283" Flags="None" FontRef="ID7" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0">
+              <StaticText>"St"</StaticText>
+            </Field>
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="286" Width="706" Flags="None" FontRef="ID7" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0">
+              <StaticText>"MaxWdh"</StaticText>
+            </Field>
+          </Row>
+        </Cell>
+        <Cell Type="Default" Width="13265" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="89" Width="10310" Flags="None" FontRef="ID7" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0">
+              <StaticText>"St = Status (M=Muss/Mandatory, C=Conditional, R=Erforderlich/Required, O=Optional, D=Abhängig von/Dependent, A=Empfohlen/Advised)"</StaticText>
+            </Field>
+          </Row>
+        </Cell>
+      </Section>
+      <Section Type="Footer" Qualifier="None" Height="240" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="283" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+        </Cell>
+        <Cell Type="Default" Width="1020" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <Frame>
+            <Corner Location="TopLeft" Style="HorzVert"/>
+            <Corner Location="TopRight" Style="HorzVert"/>
+            <Corner Location="BottomLeft" Style="HorzVert"/>
+            <Corner Location="BottomRight" Style="HorzVert"/>
+            <Edge Location="Left" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+            <Edge Location="Right" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+            <Edge Location="Top" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+            <Edge Location="Bottom" UserColor="#A0A0A0" Distance="0" Thickness="15" Style="Simple"/>
+          </Frame>
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="0">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="0" Width="991" Flags="None" FontRef="ID7" Align="Center" Style="DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0">
+              <StaticText>"Bez"</StaticText>
+            </Field>
+          </Row>
+        </Cell>
+        <Cell Type="Default" Width="13265" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="20" BottomSpace="0">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="89" Width="10373" Flags="None" FontRef="ID7" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0">
+              <StaticText>"Bez = Segment-/Gruppen-Bezeichner, MaxWdh = Maximale Wiederholung der Segmente/Gruppen"</StaticText>
+            </Field>
+          </Row>
+        </Cell>
+      </Section>
+      <Section Type="Footer" Qualifier="None" Height="410" RepeatOnEveryPage="true" ShowOnlyAtFollowingPage="false">
+        <Cell Type="Default" Width="14568" RowAsTable="false" TableContent="Comments Codes Mappings">
+          <BackgroundColor Color="White"/>
+          <Row Type="Default" LineSpace="10" TopSpace="0" BottomSpace="200">
+            <Field Type="StaticText" ObjectNumber="1" Qualifier="None" PositionX="55" Width="13927" Flags="None" FontRef="ID7" Align="Top" Style="MultiLine DynamicRowCount" MinRowCount="0" Convert="None" LinkTarget="" UserColor="#A0A0A0">
+              <StaticText>"Die schwarzen Segmente/Gruppen werden genutzt, die grauen Segmente/Gruppen sind im Nachrichtentyp enthalten, werden aber nicht genutzt."</StaticText>
+            </Field>
+          </Row>
+        </Cell>
+      </Section>
+    </Area>
+  </Page>
+</Layout>
